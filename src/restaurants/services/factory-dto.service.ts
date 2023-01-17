@@ -1,4 +1,4 @@
-import { RestaurantDto } from '@app/restaurants/interfaces/dtos/restaurant.dto'
+import { RestaurantDto } from 'src/restaurants/interfaces/dtos/restaurant.dto'
 import { Injectable } from '@nestjs/common'
 import { v4 } from 'uuid'
 import { IRestaurant } from '../interfaces/restaurant.interface'

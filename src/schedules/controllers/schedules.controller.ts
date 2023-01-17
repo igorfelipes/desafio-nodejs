@@ -4,8 +4,8 @@ import { ScheduleDto } from './dtos/schedules.dto'
 import { IHandlerCRUD } from '../../common/interfaces/handlers/handler-crud.interface'
 import { ISchedule } from '../interfaces/schedules.interface'
 import { ScheduleUpdateDto } from './dtos/schedules-update.dto'
-import { AbstractScheduleService } from '@app/schedules/services/abstract-schedule.service'
-import { ScheduleIsOpenDto } from '@app/schedules/controllers/dtos/schedules-is-open.dto'
+import { AbstractScheduleService } from 'src/schedules/services/abstract-schedule.service'
+import { ScheduleIsOpenDto } from 'src/schedules/controllers/dtos/schedules-is-open.dto'
 
 @ApiTags('Schedules')
 @Controller('schedules')

@@ -1,5 +1,5 @@
 import { IRestaurantService } from '../interfaces/restaurant-service.interface'
-import { IRestaurant } from '@app/restaurants/interfaces/restaurant.interface'
+import { IRestaurant } from 'src/restaurants/interfaces/restaurant.interface'
 
 export abstract class AbstractRestaurantService implements IRestaurantService {
   abstract store(data: Partial<IRestaurant>): Promise<any>

@@ -2,9 +2,9 @@ import { Injectable } from '@nestjs/common'
 import { AbstractRepository } from '../repositories/abstract-repository.repository'
 import { AbstractScheduleService } from './abstract-schedule.service'
 import { ISchedule } from '../interfaces/schedules.interface'
-import { FactoryDto } from '@app/schedules/services/factory-dto.service'
+import { FactoryDto } from 'src/schedules/services/factory-dto.service'
 import { DateTime } from 'luxon'
-import { AbstractRestaurantService } from '@app/restaurants/services/abstract-restaurant.service'
+import { AbstractRestaurantService } from 'src/restaurants/services/abstract-restaurant.service'
 import moment from 'moment'
 
 @Injectable()

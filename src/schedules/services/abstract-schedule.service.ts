@@ -1,5 +1,5 @@
 import { IScheduleService } from '../interfaces/schedule-service.interface'
-import { ISchedule } from '@app/schedules/interfaces/schedules.interface'
+import { ISchedule } from 'src/schedules/interfaces/schedules.interface'
 import { DateTime } from 'luxon'
 
 export abstract class AbstractScheduleService implements IScheduleService {

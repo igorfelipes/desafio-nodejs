@@ -1,4 +1,4 @@
-import { CommonModule } from '@app/common/common.module'
+import { CommonModule } from 'src/common/common.module'
 import { Module } from '@nestjs/common'
 
 import { RestaurantsModule } from './restaurants/restaurants.module'
