@@ -1,4 +1,4 @@
-import { Schedule } from 'src/schedules/types/schedule'
+import { Schedule } from '../../schedules/types/schedule'
 
 export interface IScheduleService {
   store(data: Schedule): Promise<any>

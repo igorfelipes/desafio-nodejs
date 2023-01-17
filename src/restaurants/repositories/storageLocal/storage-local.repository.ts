@@ -1,7 +1,7 @@
 import { IRestaurant, RestaurantTypeEnum } from '../../interfaces/restaurant.interface'
 import { Injectable, NotFoundException } from '@nestjs/common'
 import { AbstractRepository } from '../abstract-repository.repository'
-import { Restaurant } from 'src/restaurants/types/restaurant'
+import { Restaurant } from '../../../restaurants/types/restaurant'
 
 @Injectable()
 export class StorageLocalRepository extends AbstractRepository<IRestaurant> {

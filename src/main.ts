@@ -1,4 +1,4 @@
-import { MainModule } from 'src/main.module'
+import { MainModule } from './main.module'
 import { ClassSerializerInterceptor, ValidationPipe, VersioningType } from '@nestjs/common'
 import { ConfigService } from '@nestjs/config'
 import { NestFactory, Reflector } from '@nestjs/core'

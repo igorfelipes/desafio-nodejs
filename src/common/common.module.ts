@@ -1,6 +1,6 @@
-import { appConfig } from 'src/common/configs'
-import { CommonModuleOptions } from 'src/common/interfaces'
-import { AppConfigService } from 'src/common/services/app-config.service'
+import { appConfig } from '../common/configs'
+import { CommonModuleOptions } from '../common/interfaces'
+import { AppConfigService } from '../common/services/app-config.service'
 
 import { DynamicModule, Module } from '@nestjs/common'
 import { ConfigModule } from '@nestjs/config'

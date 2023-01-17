@@ -1,5 +1,5 @@
-import { IRestaurant } from 'src/restaurants/interfaces/restaurant.interface'
-import { FactoryDto } from 'src/restaurants/services/factory-dto.service'
+import { IRestaurant } from '../../restaurants/interfaces/restaurant.interface'
+import { FactoryDto } from '../../restaurants/services/factory-dto.service'
 import { Injectable } from '@nestjs/common'
 import { AbstractRepository } from '../repositories/abstract-repository.repository'
 import { AbstractRestaurantService } from './abstract-restaurant.service'

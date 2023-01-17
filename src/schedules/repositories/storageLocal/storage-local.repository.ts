@@ -1,8 +1,8 @@
 import { Injectable, NotFoundException } from '@nestjs/common'
 import { AbstractRepository } from '../abstract-repository.repository'
 import { ISchedule } from '../../interfaces/schedules.interface'
-import { Schedule } from 'src/schedules/types/schedule'
-import { AbstractRestaurantService } from 'src/restaurants/services/abstract-restaurant.service'
+import { Schedule } from '../../../schedules/types/schedule'
+import { AbstractRestaurantService } from '../../../restaurants/services/abstract-restaurant.service'
 
 @Injectable()
 export class StorageLocalRepository extends AbstractRepository<ISchedule> {

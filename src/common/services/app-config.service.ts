@@ -1,4 +1,4 @@
-import { AppConfigService as IAppConfigService } from 'src/common/interfaces/app-config.interface'
+import { AppConfigService as IAppConfigService } from '../../common/interfaces/app-config.interface'
 import { Injectable } from '@nestjs/common'
 import { ConfigService } from '@nestjs/config'
 
