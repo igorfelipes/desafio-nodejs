@@ -13,7 +13,10 @@ export class RestaurantDto implements Partial<IRestaurant> {
   @IsNotEmpty()
   documento: string
 
-  @ApiProperty()
+  @ApiProperty({
+    enum: RestaurantTypeEnum,
+    example: RestaurantTypeEnum.LANCHONETE
+  })
   @IsEnum(RestaurantTypeEnum)
   @IsNotEmpty()
   type: RestaurantTypeEnum
