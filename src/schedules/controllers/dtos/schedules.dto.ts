@@ -8,11 +8,16 @@ export class ScheduleDto implements Partial<ISchedule> {
   @IsNotEmpty()
   dayOfWeek: number
 
-  @ApiProperty()
+  @ApiProperty({
+    example: '23:00'
+  })
   @IsString()
   @IsNotEmpty()
   startHour: string
-  @ApiProperty()
+
+  @ApiProperty({
+    example: '23:00'
+  })
   @IsString()
   @IsNotEmpty()
   endHour: string
